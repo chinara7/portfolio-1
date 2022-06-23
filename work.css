@@ -1,0 +1,980 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+* {
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container {
+
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.73% 4.7% 1.5% 6.77%;
+    align-items: center;
+}
+
+.head {
+    font-size: 2vw;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    line-height: 28px;
+    flex-basis: 45%;
+}
+
+
+.nav-links a {
+    color: #000;
+
+}
+
+.nav-links a:hover {
+    transform: translateY(5px);
+    transition: all 1s ease-in;
+}
+
+.content {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.text {
+    padding: 5%;
+    word-spacing: 5px;
+    flex-basis: 50%;
+}
+
+.text>.h1 {
+
+    color: coral;
+    font-size: 5vw;
+    letter-spacing: 2px;
+}
+
+.text>.h2 {
+    font-size: 5vw;
+    letter-spacing: 2px;
+}
+
+.text>p {
+    font-size: 22px;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    padding: 17px 30px 23px;
+
+}
+
+.text>a {
+    margin-left: 10px;
+}
+
+.images {
+    min-width: 450px;
+    flex: 50%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Trusted {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+}
+
+.trustedlogo {
+    display: flex;
+
+}
+
+.logo {
+    margin: 22px;
+    padding: 50px;
+
+}
+
+.logo img {
+    width: 141px;
+}
+
+.services-design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+}
+
+.services {
+    font-size: 22px;
+    color: #FF5E69;
+    letter-spacing: 4px;
+}
+
+.design {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 59px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.frame {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.frame1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vector1 {
+    width: 300px;
+    height: 80px;
+
+}
+
+.frame1 .vector1 :nth-child(2) {
+    position: relative;
+    bottom: 18%;
+}
+
+.frame2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vector2 {
+    width: 300px;
+    height: 80px;
+}
+
+.frame2 .vector2 :nth-child(1) {
+    position: relative;
+    left: 9%;
+
+}
+
+.frame2 .vector2 :nth-child(2) {
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+.frame3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vector3 {
+    width: 300px;
+    height: 80px;
+}
+
+.frame3 .vector3 :nth-child(1) {
+    position: relative;
+    bottom: 50%;
+    left: 17%;
+}
+
+.vector-text :nth-child(1) {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26.4px;
+    height: 60px;
+}
+
+.vector-text :nth-child(2) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    height: 85px;
+}
+
+.vector-text li {
+    font-size: 16px;
+    line-height: 900;
+    line-height: 28px;
+}
+
+.projects {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.text3 {
+    width: 500px;
+    padding: 0 65px;
+
+}
+
+.project {
+    color: #B16CEA;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 22px;
+
+}
+
+.I {
+
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 1px;
+}
+
+.My {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 1px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 65px;
+}
+
+.image {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image img {
+    width: 350px;
+    height: 200px;
+}
+
+.black {
+    width: 100%;
+    background: #000;
+}
+
+.head1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-text {
+    width: 350px;
+    height: 200px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+
+
+.img-text :nth-child(1) {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 4px;
+    color: #3c46ff;
+    padding: 10px;
+}
+
+.img-text :nth-child(2) {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    padding: 10px;
+}
+
+
+.view-project {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.view-project p {
+    color: #000 !important;
+}
+
+.view-project a i {
+    color: #000 !important;
+    fill: #000;
+}
+
+
+.button1 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.button1 button {
+    background-color: #fff;
+    margin-right: 5px;
+}
+
+.button1 i {
+    color: #000;
+}
+
+.dates {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text4 {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.text4 :nth-child(1) {
+    color: #ffa84b;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 4px;
+}
+
+.text4 :nth-child(2) {
+    color: #fff;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 1px;
+
+
+}
+
+.view-all {
+    display: flex;
+
+}
+
+.view-all>p {
+    color: #fff !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    line-height: 18px !important;
+    letter-spacing: 0em !important;
+
+
+}
+
+.view-all a i {
+    color: #000;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.text4 .view-all a img {
+    width: 15px;
+    color: #fff;
+    position: relative;
+    left: 50%;
+    bottom: 50%;
+
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+}
+
+.date1 {
+    color: #fff;
+    width: 550px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.year-time {
+    display: flex;
+}
+
+.year-time .year {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+
+}
+
+.year-time .time {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+}
+
+.date-text {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+
+
+}
+
+.readthearticle p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+
+
+}
+
+.readthearticle {
+    display: flex;
+
+}
+
+.readthearticle a {
+    margin-left: 8px;
+}
+
+.white {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.white .header {
+    display: flex;
+}
+
+.thats-me {
+    flex-basis: 20%;
+
+}
+
+.thats-me :nth-child(1) {
+    color: #FF5E69;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 4px;
+
+}
+
+.thats-me :nth-child(2) {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 59.4px;
+    letter-spacing: 1px;
+}
+
+.thatsme-text {
+    flex-basis: -20%;
+    color: #666666;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.content-images {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+
+}
+
+.img1 {
+    padding-left: 113px;
+}
+
+.education-work {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.education-work .header p {
+    position: relative;
+    left: 100px;
+    height: 80px;
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.education {
+    padding-left: 40px;
+    position: relative;
+    right: 1%;
+    height: 500px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.education .content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.university {
+    position: relative;
+    left: 10px;
+    width: 600px;
+    height: 100px;
+}
+
+.university .header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.university .header a {
+    position: relative;
+    left: 25px;
+}
+
+.university h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.university .about {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.university img {
+    position: relative;
+    left: 6%;
+}
+
+.university .about :nth-child(1) {
+    position: relative;
+    left: 6%;
+}
+
+.university .about :nth-child(2) {
+    position: absolute;
+    right: 10%;
+}
+
+.university svg {
+    position: relative;
+    left: 20px;
+    top: 2%;
+}
+
+.works {
+    height: 500px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.work1 {
+    padding-left: 50px;
+    position: relative;
+    right: 10%;
+    left: 10px;
+    width: 600px;
+    height: 100px;
+    transform: translateY(-20px);
+}
+
+/* .work1 .worklogo{
+    display: inline;
+    position: absolute;
+    transform: translateX(25px);
+}
+.worklogo1{
+    display: inline;
+    position: absolute;
+    transform: translateX(-15px);
+    padding-top: 9px;
+
+} */
+
+.work1 .about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work1 h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+
+}
+
+.work1 a {
+    position: relative;
+    right: 13%;
+}
+
+.work1 img {
+    position: relative;
+    left: -5%;
+}
+
+.work1 .about :nth-child(1) {
+    position: relative;
+    left: 6%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.work1 .about :nth-child(2) {
+    position: relative;
+    right: 25%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.testmonials {
+    padding-left: 25px;
+    display: flex;
+
+}
+
+.testmonials .left-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.testmonials .left-side .text :nth-child(1) {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 4px;
+    color: #4353FF;
+}
+
+.testmonials .left-side .text :nth-child(2) {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 1px;
+}
+
+.testmonials .left-side .img {
+    padding-left: 45px;
+}
+
+.testmonials .right-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.testmonials .right-side .comma {
+    position: relative;
+    top: 25%;
+}
+
+.testmonials .right-side .text p {
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    position: relative;
+    top: 45%;
+    right: 10%;
+}
+
+.testmonials .right-side .about {
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+
+.testmonials .right-side .text1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.testmonials .right-side .text1 :nth-child(1) {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+    position: relative;
+    top: 140px;
+}
+
+.testmonials .right-side .text1 :nth-child(2) {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 18px;
+    position: relative;
+    top: 150px;
+}
+
+.testmonials .right-side .about button {
+    height: 50px;
+    position: relative;
+    top: 150px;
+    right: 0%;
+    left: 30%;
+}
+
+.faq {
+    height: 100%;
+    background: #000;
+}
+
+.faq .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq .header :nth-child(1) {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 4px;
+    color: #FF8A56;
+    padding-top: 80px;
+}
+
+.faq .header :nth-child(2) {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.faq .left-side {
+    position: relative;
+    right: 3%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.faq .text {
+    display: flex;
+}
+
+.faq .left-side .text {
+    display: flex;
+}
+
+.faq .left-side .text :nth-child(1) {
+    position: relative;
+    right: 4%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 31px;
+}
+
+.faq .left-side .text a {
+    position: relative;
+    top: 8%;
+    left: 20%;
+}
+
+.faq .left-side .text p {
+    width: 500px;
+}
+
+.faq .left-side img {
+    position: relative;
+    bottom: 4.5%;
+}
+
+.faq .right-side {
+    flex: 1;
+    color: #fff;
+}
+
+.faq .right-side .text :nth-child(1) {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 31px;
+
+}
+
+.faq .right-side .text p {
+    width: 435px;
+
+}
+
+.faq .right-side a {
+    position: relative;
+    left: 20%;
+}
+
+.faq .right-side img {
+    position: relative;
+    left: 4%;
+    bottom: 3.5%;
+}
+
+.ready-lets {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ready p {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 1px;
+    position: relative;
+    top: 10%;
+    left: 5%;
+    transform: translateX(12%);
+}
+
+.lets p {
+    color: #3C46FF;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0.5px;
+    position: relative;
+    left: 5%;
+    transform: translateX(12%);
+}
+
+.footer {
+    display: flex;
+}
+
+.footer .header {
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .header :nth-child(1) {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 2em;
+    transform: translateX(-25%);
+}
+
+.footer .header :nth-child(2) {
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2em;
+    transform: translateX(-2%);
+}
+
+.footer .header .p {
+    display: flex;
+}
+
+.footer .header .p :nth-child(1) {
+    position: relative;
+    bottom: 75%;
+    right: 7%;
+    transform: translateX(-85px);
+}
+.footer .header .p p{
+    transform: translateX(-90px);
+}
+
+.footer .nav {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 2;
+}
+
+.footer .nav nav a {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2em;
+    color: #fff;
+}
+
+.finish {
+    display: flex;
+
+}
+
+.finish p {
+    position: relative;
+    left: 5%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #8A95AD;
+    padding: 5px;
+}
